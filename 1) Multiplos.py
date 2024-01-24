@@ -2,9 +2,8 @@
 
 num = int(input("Ingrese un numero"))
 
-for i in range(1, 11):
-    m = num * i 
-    print(f"El numero x {i} = {m}")
+for i in range(10):
+    print(f"{num} x {i+1} = {m*(i+1)}")
 
 
 
